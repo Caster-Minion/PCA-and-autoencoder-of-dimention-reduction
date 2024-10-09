@@ -163,7 +163,7 @@ def PCA_2(): #PCA 2 principal components
     fig.show()
     print("",loadings)
 
-    """
+  
     fig = px.scatter_matrix(
         principalComponents,
         dimensions=range(2),
@@ -177,7 +177,7 @@ def PCA_2(): #PCA 2 principal components
                           c='DarkBlue')
     # Display plot
     plt.show()
-    """
+ 
 
 
 def autoencoder():
@@ -270,11 +270,3 @@ def linear_reg():
 
 
 
-data_mod()
-price_date_selection()
-prices_merge()
-
-PCA_1()
-autoencoder()
-
-linear_reg()
